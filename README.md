@@ -20,3 +20,8 @@ Nightwatch is an integrated testing framework powered by Node.js and using the [
 ☑️ Node.js unit, visual regression testing, accessibility testing & API testing
 
 ☑️ Native mobile app testing on Android & iOS
+
+
+[discord-badge]: https://img.shields.io/discord/618399631038218240.svg?color=7389D8&labelColor=6A7EC2&logo=discord&logoColor=ffffff&style=flat-square&label=discord
+[discord]: https://discord.gg/SN8Da2X
+
