@@ -16,18 +16,18 @@ It provides a complete testing solution and can be used for a wide range of test
 * Unit testing, Visual Regression testing, Accessibility testing, and API testing
 * Native mobile app testing on Android & iOS.
 
-__GitHub Repo:__ https://github.com/nightwatchjs/nightwatch
+__GitHub Repo:__ https://github.com/nightwatchjs/nightwatch  
+__Discord Community:__ https://discord.com/invite/SN8Da2X
 
 ## Idea 1: Video Evidence (Video recording of tests)
 
 ### Abstract
 
-While Nightwatch.js currently offers an integrated HTML reporter which helps aggregate and visualize the test results, along with HTML
-snapshots of the website state at the point of test failure, it has been a long-standing request from the community to add support for providing complete video recording of the tests as well, in case of test failure.
+While Nightwatch.js currently offers an integrated HTML reporter which helps aggregate and visualize the test results, along with HTML snapshots of the website state at the point of test failure, it has been a long-standing request from the community to add support for providing complete video recordings of the test runs as well, in case of test failure.
 
 __Mentors__: Vaibhav Singh, David Burns
 
-#### Goals & Ideas
+### Goals & Ideas
 
 * Add the ability to record the complete test run in video, format across all major web browsers.
 * There can be multiple ways to achieve this:
@@ -56,9 +56,9 @@ __Difficulty:__ Medium
 
 ### Abstract
 
-`@nightwatch/mobile-helper` is a tool that allows developers and testers to set up fully functional Android Emulator environment in just a few minutes, without the need to download the complete Android Studio IDE software.
+`@nightwatch/mobile-helper` is a tool that allows developers and testers to set up a fully functional Android Emulator environment in just a few minutes, without the need to download the complete Android Studio IDE software.
 
-This tool comes in very handy while setting up Android Emulators for end-to-end web or native app testing so that testers can go from nothing to running their first test on an Android Emulator in under 3 minutes. Additionally, this tool can also be used by other users for setting up Android Emulator environments.
+This tool comes in very handy while setting up Android Emulators for end-to-end web or native app testing so that the testers can go from nothing to running their first test on an Android Emulator in under 3 minutes. Additionally, this tool can also be used by other users for setting up Android Emulator environments.
 
 __Mentors:__ Priyansh Garg
 
@@ -68,13 +68,13 @@ __Mentors:__ Priyansh Garg
 * Find and document in one place all the important Android SDK commands that the users can use to install the system images of additional Android versions and create Android Virtual Devices (AVDs) using them, and other things like installing an application, starting/stopping the emulator, etc.
 * Add the ability to allow installation of the system images of additional Android versions by letting users select from a list of available versions. Currently, the tool can only install the system image of Android version 11.
 * Add the ability to create multiple Android Virtual Devices (AVDs) which can be used to emulate a wider range of Android Devices like Pixel 6, Pixel XL, etc. Currently, the tool can only create an AVD for Pixel 5 device.
-* Add the ability to allow users update Android SDK binaries using the tool itself, by giving them a list of binaries that can be updated (along with the current version and latest version of the binaries), and an option to update all the binaries in one go.
+* Add the ability to allow users to update the various Android SDK tools required to run Android Emulator, by giving them a list of all the tools that can be updated (along with their current version and latest versions), and an option to update all the SDK tools in one go.
 * Add the ability to connect Android devices to `adb` wirelessly by running command `npx @nightwatch/mobile-helper android --connect --wireless`, which would allow users to automate Android devices wirelessly: https://developer.android.com/tools/adb#wireless-android11-command-line
 
 #### Refs
 
 * https://github.com/nightwatchjs/mobile-helper-tool
-* https://github.com/webdriverio-community/wdio-video-reporter.
+* https://developer.android.com/tools
 
 #### Skills Required
 
