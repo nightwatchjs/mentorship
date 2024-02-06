@@ -1,6 +1,7 @@
 # GSoC 2024 Project Ideas
 
 This list contains the high level ideas and goals for each of the potential projects we'd like to take up for GSoC 2024.
+
 But please note that nothing listed below is set in stone, and while the overall outline of the projects would remain the same,
 the internal details and goals of the projects are open to modifications based on the suggestions given by the contributors, as they
 dive deeper into each of the projects under the guidance of the mentors.
