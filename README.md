@@ -22,6 +22,18 @@ Nightwatch is an integrated testing framework powered by Node.js and using the [
 ☑️ Native mobile app testing on Android & iOS
 
 
+## About Mentorship
+
+As Nightwatch.js turns 10 this year, we plan to make Nightwatch.js more open and welcoming to the contributions from the amazing
+Open Source community, starting with getting involved into various Open Source mentorship programs. This would not only help
+Nightwatch.js grow as the community around the testing space grows, but would also benefit the testers and developers around
+the globe with new and better capabilities to do their testing.
+
+## Getting Involved 🚀
+
+To get involved with the various mentorship programs under Nightwatch.js, join our [Discord server][discord] and express your interest
+or ask away any doubts in the __#general__ or __#development-team__ channels.
+
 [discord-badge]: https://img.shields.io/discord/618399631038218240.svg?color=7389D8&labelColor=6A7EC2&logo=discord&logoColor=ffffff&style=flat-square&label=discord
 [discord]: https://discord.gg/SN8Da2X
 
