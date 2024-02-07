@@ -84,7 +84,7 @@ __Difficulty:__ Medium
 
 ### Abstract
 
-Currently, Nightwatch.js and other Selenium-based end-to-end testing tools depend on [W3C Webdriver API](https://www.w3.org/TR/webdriver/) specifications for automating web browsers, which being a standardized API works great, but it still has a few limitations arising from its traditional HTTP based request/response architecture, which makes it slower and not able to use the full potential of the event-driven nature of web browsers.
+Currently, Nightwatch.js and other Selenium-based end-to-end testing tools depend on [W3C Webdriver API](https://www.w3.org/TR/webdriver/) specifications for automating web browsers, which being a standardized API works great, but it still has a few limitations arising from its traditional HTTP based request/response architecture, which makes it slower and unable to make use of the full potential of event-driven nature of web browsers.
 
 Enter [WebDriver BiDi](https://w3c.github.io/webdriver-bidi/), which is a new standard protocol for browser automation currently under active development, which makes use of the event-based WebSocket connections instead of the traditional HTTP connections, making full use of the event-driven nature of web browsers to provide many additional functionalities (like network interception, observing DOM mutation, listening to JS exceptions, etc.) over and above the existing WebDriver APIs while making them much faster.
 
@@ -95,12 +95,13 @@ __Mentors__: Puja Jagani, Ravi Sawlani, David Burns
 * Migrate the existing [CDP (Chrome Devtools Protocol)](https://chromedevtools.github.io/devtools-protocol/) based commands to use the new browser-agnostic WebDriver BiDi Protocol, which will make those commands work on non-Chromium based browsers as well.
 * Implement new functionalities using WebDriver BiDi Protocol like [Script Pinning](https://www.selenium.dev/documentation/webdriver/bidirectional/chrome_devtools/bidi_api/#pin-scripts), [DOM Mutation Observer](https://www.selenium.dev/documentation/webdriver/bidirectional/chrome_devtools/bidi_api/#mutation-observation), etc.
 * Incrementally update the existing Nightwatch APIs to use WebDriver BiDi protocol instead of the existing WebDriver API protocol, while ensuring complete backwards compatibility.
-* Update APIs documentation accordingly.
+* Update API documentations accordingly.
 
 #### Refs
 
 * https://developer.chrome.com/docs/web-platform/best-practices/webdriver-bidi
 * https://www.selenium.dev/documentation/webdriver/bidirectional/
+* https://www.selenium.dev/documentation/webdriver/bidirectional/chrome_devtools/bidi_api/#mutation-observation
 
 __Skills Required:__ JavaScript, Node.js, Selenium
 
