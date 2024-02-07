@@ -92,9 +92,9 @@ __Mentors__: Puja Jagani, Ravi Sawlani, David Burns
 
 ### Goals & Ideas
 
+* Make the required changes in Nightwatch.js so that it can work with the new WebDriver BiDi protocol alongside the WebDriver API protocol.
 * Migrate the existing [CDP (Chrome Devtools Protocol)](https://chromedevtools.github.io/devtools-protocol/) based commands to use the new browser-agnostic WebDriver BiDi Protocol, which will make those commands work on non-Chromium based browsers as well.
 * Implement new functionalities using WebDriver BiDi Protocol like [Script Pinning](https://www.selenium.dev/documentation/webdriver/bidirectional/chrome_devtools/bidi_api/#pin-scripts), [DOM Mutation Observer](https://www.selenium.dev/documentation/webdriver/bidirectional/chrome_devtools/bidi_api/#mutation-observation), etc.
-* Incrementally update the existing Nightwatch APIs to use WebDriver BiDi protocol instead of the existing WebDriver API protocol, while ensuring complete backwards compatibility.
 * Update API documentations accordingly.
 
 #### Refs
