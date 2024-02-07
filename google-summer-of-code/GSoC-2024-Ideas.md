@@ -109,20 +109,20 @@ __Difficulty:__ Medium
 
 ### Abstract
 
-With the v3 release last year, Nightwatch.js introduced a brand new Element API which provides a much more concise way of finding and interacting with elements. And while this was a major step towards improving the test writing experience of Nightwatch.js users, there are still a few areas where this experience can be improved further.
+With the v3 release last year, Nightwatch.js introduced a brand new Element API which provides a much more concise way of finding and interacting with elements. And while this was a major step towards improving the test writing experience for Nightwatch.js users, there are still a few areas where this experience can be improved further.
 
-Also, we need to get better at promoting this new and better element API by updating our existing example tests and writing new tests that clearly shows the benefits we get from using the new API.
+Additionally, we also need to get better at promoting this new and better element API by updating our existing example tests and writing new tests that clearly shows the benefits we get from using the new API.
 
 __Mentors:__ Andrei Rusu, Priyansh Garg
 
 ### Goals & Ideas
 
 * Add a few missing capabilities (commands) to Nightwatch v3 Element API: https://github.com/nightwatchjs/nightwatch/issues/3901
-* Make action commands on the element API chainable, which will further improve the test writing experience for users. For example, we should be able to chain `.click()` and `.sendKeys()` command as: `browser.element.find().click().sendKeys()`.
+* Make action commands on the new Element API chainable, which will further improve the test writing experience for users. For example, we should be able to chain `.click()` and `.sendKeys()` command as: `browser.element.find().click().sendKeys()`.
 * Make sure that the action commands throw error incase an error is returned by Selenium: https://github.com/nightwatchjs/nightwatch/issues/3899
 * Add a `force` parameter on the `.click()` command to force click on an element incase the normal click does not work.
 * Update Nightwatch [example tests](https://github.com/nightwatchjs/nightwatch/tree/main/examples) to use the new Element API syntax.
-* Add new example tests that shows the usage of all the commands/assertions available with the new Element API. This will not only as a direct reference for the users to check how to use a command, but also as a regression test suite for Nightwatch.js that we can run regularly to make sure we are not breaking anything in subsequent releases.
+* Add new example tests that shows the usage of all the commands/assertions available with the new Element API. This will not only serve as a direct reference for the users to check how to use a command, but will also serve as a regression test suite for Nightwatch.js that we can run regularly to make sure we are not breaking anything in subsequent releases.
 
 #### Refs
 
