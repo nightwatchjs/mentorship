@@ -42,7 +42,8 @@ __Mentors__: Vaibhav Singh, David Burns
 #### Refs
 
 * https://github.com/muaz-khan/RecordRTC
-* https://github.com/webdriverio-community/wdio-video-reporter.
+* https://github.com/webdriverio-community/wdio-video-reporter
+* https://nightwatchjs.org/guide/reporters/use-html-reporter.html
 
 __Skills Required:__ JavaScript, Node.js, ReactJS (for HTML Reporter)
 

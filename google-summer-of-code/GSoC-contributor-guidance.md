@@ -3,8 +3,9 @@
 ## General guidelines
 
 * Read the [Contributor Guide](https://google.github.io/gsocguides/student/) written by the Google Summer of Code organizers.
+* Go through the [GSoC 2024 Project Ideas List](GSoC-2024-Ideas.md) for Nightwatch.js and read our [Contributing Guide](https://github.com/nightwatchjs/nightwatch/blob/main/CONTRIBUTING.md).
 * Understand the [GSoC timeline](https://developers.google.com/open-source/gsoc/timeline), application process and the project you are applying for, assuming best intentions throughout the period.
-* Start as early as possible and try to submit at least a few good code contributions to Nightwatch.js project before submitting your proposal, so that we can be sure that you'll be a good fit for the project.
+* Start as early as possible and try to submit at least a few good code contributions to any project of your liking in the [Nighwatch.js GitHub Org](https://github.com/nightwatchjs) before submitting your proposal, so that we can be sure that you have what it takes to be a good Nightwatch.js contributor.
 * Other form of contributions like helping out on [Discord](https://discord.com/invite/SN8Da2X), [GitHub issues](https://github.com/nightwatchjs/nightwatch/issues), and reviewing pull requests are also most welcomed. We'd prefer contributors who can not only contribute to the codebase of Nightwatch.js but can also contribute to the community around it.
 * Join our [Discord server](https://discord.com/invite/SN8Da2X) and make sure to reach out and interact with the mentors to discuss your solution and approach towards a project idea before starting to fill in the proposal.
 * Share the first draft of your proposal as early as possible.
