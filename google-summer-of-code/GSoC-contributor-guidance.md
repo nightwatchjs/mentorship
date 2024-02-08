@@ -51,3 +51,11 @@
 ### Schedule of Deliverables
 
 > Document all your milestones, neatly divided into the various phases: before community bonding, during community bonding, Phase-1, Phase-2 and more. Each phase should be further divided into week-wise manner and sub-tasks should be added for all your deliverables to help mentors better understand the time estimate and if they are in accordance with the GSoC timeline.
+
+### Additional Information
+
+>Please include the answers to the following questions in your project application:
+>
+>* Why you’re excited about working on Nightwatch.js?
+>* How does your availability look like during the GSoC period? Is there anything that you’ll be studying or working on whilst working alongside us?
+>* How do you plan to stay connected with Nightwatch.js post the GSoC period?
