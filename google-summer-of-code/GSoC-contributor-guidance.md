@@ -14,6 +14,7 @@
 ## Writing your proposal
 
 * Your proposal should contain a clear understanding on how you're going to approach the project idea, along with a well-defined weekly schedule with clear milestones and deliverables around it.
+* If you plan to propose your own project idea, please include a project outline, goals (as done in [Ideas List](GSoC-2024-Ideas.md)) and a well-defined weekly schedule with clear milestones and deliverables around it.
 
 # Proposal Template
 
