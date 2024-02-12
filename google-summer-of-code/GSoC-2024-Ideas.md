@@ -123,6 +123,7 @@ __Mentors:__ Andrei Rusu, Priyansh Garg
 * Make action commands on the new Element API chainable, which will further improve the test writing experience for users. For example, we should be able to chain `.click()` and `.sendKeys()` command as: `browser.element.find().click().sendKeys()`.
 * Make sure that the action commands throw error incase an error is returned by Selenium: https://github.com/nightwatchjs/nightwatch/issues/3899
 * Add a `force` parameter on the `.click()` command to force click on an element incase the normal click does not work.
+* Add improvements to Testing Library `.findByRole()` command: https://github.com/nightwatchjs/nightwatch/issues/3887
 * Update Nightwatch [example tests](https://github.com/nightwatchjs/nightwatch/tree/main/examples) to use the new Element API syntax.
 * Add new example tests that shows the usage of all the commands/assertions available with the new Element API. This will not only serve as a direct reference for the users to check how to use a command, but will also serve as a regression test suite for Nightwatch.js that we can run regularly to make sure we are not breaking anything in subsequent releases.
 
