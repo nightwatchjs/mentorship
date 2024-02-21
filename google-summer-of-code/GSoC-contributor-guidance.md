@@ -17,12 +17,22 @@
 ## Starting out with Nightwatch.js
 
 * First and foremost, try to fork, clone and setup the [Nightwatch](https://github.com/nightwatchjs/nightwatch) project (or any other project you wish to work on) locally.
+* For most projects, you just need to run `npm i` to set them up locally.
 * If working on the main Nightwatch project, try to run and play around with the example tests present in the project itself. You can find all the APIs available with Nightwatch in the [Nightwatch API Docs](https://nightwatchjs.org/api/).
 * For e.g., to run the ecosia test, execute: `node ./bin/nightwatch examples/tests/ecosia.js --env chrome`.  
 
   __Note:__ When running Nightwatch example test for the first time, if you encounter _"Cannot read source"_ error, go to `nightwatch.conf.js` file and set 'page_objects_path' and 'custom_commands_path' configs to `[]`.
 * If possible, take a quick glance through the Nightwatch [guide](https://nightwatchjs.org/guide/overview/what-is-nightwatch.html) and [API docs](https://nightwatchjs.org/api/) to get familiar with how the documentation is structured, which will help you later to find your answers more quickly.
 * Contributions to improve docs and example tests are most welcomed :)
+
+## Picking up and working on issues
+
+* Please feel free to pick up any [good-first issues](https://github.com/issues?q=is%3Aissue+org%3Anightwatchjs+archived%3Afalse+label%3A%22good+first+issue%22+is%3Aopen) from the various Nightwatch.js repositories.
+* Or, if you feel confident enough, you are welcome to help out with other non-labelled issues as well, but we'd suggest you to start with an easy issue.
+* In order to handle the inflow of too many potential contributors and ensure timely resolution of the issues, we will only be assigning issues to contributors once they've looked into the issue and suggested a potential solution on the GitHub issue itself.
+* While you might feel like this would lead to a lot of contributors wasting their time on an issue while only one of them will be able to create a final PR, please remember that we'll also be considering the quality of reviews a contributor leaves on other contributors' PRs while reviewing the final proposal, and investigating the issue yourself will help you post good PR reviews. __But please refrain from spamming the PRs with reviews, only good and quality reviews will be considered.__
+* Moreover, in this process, you'll also get to explore and get familiar with the codebase of Nightwatch.js, which would help you with further issues.
+* But still if you feel like you are leaving good reviews on other contributors' PRs but not getting to solve any issues on your own due to the speed at which others come up with the solution, please reach out us on Discord and we'll find a suitable issue for you.
 
 ## Writing your proposal
 
