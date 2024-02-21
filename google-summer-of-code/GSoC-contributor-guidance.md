@@ -6,12 +6,23 @@
 * Go through the [GSoC 2024 Project Ideas List](GSoC-2024-Ideas.md) for Nightwatch.js and read our [Contributing Guide](https://github.com/nightwatchjs/nightwatch/blob/main/CONTRIBUTING.md).
 * Understand the [GSoC timeline](https://developers.google.com/open-source/gsoc/timeline), application process and the project you are applying for, assuming best intentions throughout the period.
 * Join our [Discord server](https://discord.com/invite/SN8Da2X) and introduce yourself in the `#welcome` channel.
+* Ask for any development-related help in the `#development-team` channel and direct all your GSoC related queries to the `#gsoc` channel on Discord.
 * Start as early as possible and try to submit at least a few good code contributions to any project of your liking in the [Nighwatch.js GitHub Org](https://github.com/nightwatchjs) before submitting your proposal, so that we can be sure that you have what it takes to be a good Nightwatch.js contributor.
 * Other form of contributions like helping out on Discord, GitHub issues, and reviewing pull requests are also most welcomed. We'd prefer contributors who can not only contribute to the codebase of Nightwatch.js but can also contribute to the community around it.
 * Make sure to reach out and interact with the mentors to discuss your solution and approach towards a project idea before starting to fill in the proposal.
 * Share the first draft of your proposal as early as possible.
 * Share the proposal link as text, markdown, Google docs or anything else as long as it is easy to share, and will not require anyone to download something.
 * Final proposals should be submitted on the Google Summer of Code website before the deadline and after all the reviews have been done.
+
+## Starting out with Nightwatch.js
+
+* First and foremost, try to fork, clone and setup the [Nightwatch](https://github.com/nightwatchjs/nightwatch) project (or any other project you wish to work on) locally.
+* If working on the main Nightwatch project, try to run and play around with the example tests present in the project itself. You can find all the APIs available with Nightwatch in the [Nightwatch API Docs](https://nightwatchjs.org/api/).
+* For e.g., to run the ecosia test, execute: `node ./bin/nightwatch examples/tests/ecosia.js --env chrome`.  
+
+  __Note:__ When running Nightwatch example test for the first time, if you encounter _"Cannot read source"_ error, go to `nightwatch.conf.js` file and set 'page_objects_path' and 'custom_commands_path' configs to `[]`.
+* If possible, take a quick glance through the Nightwatch [guide](https://nightwatchjs.org/guide/overview/what-is-nightwatch.html) and [API docs](https://nightwatchjs.org/api/) to get familiar with how the documentation is structured, which will help you later to find your answers more quickly.
+* Contributions to improve docs and example tests are most welcomed :)
 
 ## Writing your proposal
 
