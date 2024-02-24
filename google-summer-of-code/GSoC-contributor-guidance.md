@@ -29,6 +29,7 @@
 
 * Please feel free to pick up any [good-first issues](https://github.com/issues?q=is%3Aissue+org%3Anightwatchjs+archived%3Afalse+label%3A%22good+first+issue%22+is%3Aopen) from the various Nightwatch.js repositories.
 * Or, if you feel confident enough, you are welcome to help out with other non-labelled issues as well, but we'd suggest you to start with an easy issue.
+* Always open __Draft__ PR and make sure to test your changes thoroughly in your local environment before marking your PR as ready for review. If you face any issues or don't understand something, feel free to reach out on Discord and ask for help.
 * In order to handle the inflow of too many potential contributors and ensure timely resolution of the issues, we will only be assigning issues to contributors once they've looked into the issue and suggested a potential solution on the GitHub issue itself.
 * While this might feel like it would lead to a lot of contributors wasting their time on an issue while only one of them will be able to create a final PR, please remember that we'll also be considering the quality of reviews a contributor leaves on other contributors' PRs while reviewing the final proposal, and investigating the issue yourself will help you post good PR reviews. __But please refrain from spamming the PRs with reviews, only good and quality reviews will be considered.__
 * Moreover, in this process, you'll also get to explore and get familiar with the codebase of Nightwatch.js, which would help you with further issues.
